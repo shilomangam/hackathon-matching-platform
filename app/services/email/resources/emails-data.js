@@ -5,7 +5,7 @@ module.exports = {
             body: `Hi {{userName}}, Welcome to {{eventName}}!\n
             We are happy to see you on board, This is your first step of being part of {{eventName}}!\n
             On the next step, you will need to login to our platfrom and Create new team or Join existing team.\n\n
-            Hackathon event is one of the best ways to meet new people, mingle and taking your career to the next step. 
+            Hackathon event is one of the best ways to meet new people, mingle and taking your career to the next step.
             So, update your CV and get ready for our amazing event that will come up on {{eventDate}} at {{eventLocation}}!\n\n
             See you there! {{eventName}} team.`,
             mjml_body: `<mjml>
@@ -54,7 +54,7 @@ module.exports = {
           <mj-divider border-width="1px" border-style="dashed" border-color="lightgrey" />
           <mj-text>
             <p style="margin-top: -15px; text-align:center">
-              {{eventName}} 2017, all rights reserved.
+              {{eventName}}, All Rights Reserved.
             </p>
           </mj-text>
         </mj-column>
@@ -226,7 +226,7 @@ module.exports = {
               Thanks!
             </p>
           </mj-text>
-          <mj-button font-family="Helvetica" background-color="#e5a552" color="white" href="{{{websiteAddress}}/updateTeam"> Update your team now
+          <mj-button font-family="Helvetica" background-color="#e5a552" color="white" href="{{websiteAddress}}/updateTeam"> Update your team now
 
           </mj-button>
         </mj-column>
@@ -248,4 +248,3 @@ module.exports = {
         }
     }
 };
-
